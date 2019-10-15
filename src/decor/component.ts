@@ -1,12 +1,14 @@
-export const Component = (conf: any) => {
+export interface ComponentConfig {
+    selector: string,
+    templateUrl: string,
+    styleUrls: string[],
+}
+
+export const Component = (conf: ComponentConfig) => {
     return async function (clazz) {
         var elem = document.createElement(conf.selector);
-        elem.addEventListener('click', function (e) {
-            alert('Thanks!');
-        });
-        let tmpl = await fetch('hero.component.html').then(str => str.text());
-
-        let _cl = new clazz()
+        let tmpl = await fetch(conf.templateUrl).then(str => str.text());
+        let _cl = new clazz();
 
         Object.keys(_cl).forEach(baseClPr => {
             tmpl = tmpl.replace(`{{${baseClPr}}}`, _cl[baseClPr])

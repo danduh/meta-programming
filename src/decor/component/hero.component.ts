@@ -7,7 +7,7 @@ import {Component} from "../component";
     styleUrls: ['./hero.component.scss'],
 })
 export class HeroComponent {
-    title = 'NG-Heroes - Relaunch';
+    public title = 'TSconf 2019';
 
     constructor() {
     }
