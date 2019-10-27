@@ -4,8 +4,6 @@ import {mixings} from "./mixings";
 
 console.log('********* t: @danduh81 *********  \n OUTPUT START\n********* t: @danduh81 ********* \n \n');
 
-
-
 @mixings(BaseFlying)
 export class Car {
 
