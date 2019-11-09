@@ -1,5 +1,5 @@
 export function readOnly(target, key, descriptor) {
-    descriptor.writable = false
+    descriptor.writable = false;
     return descriptor
 }
 

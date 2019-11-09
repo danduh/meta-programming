@@ -31,9 +31,22 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a3d80ed-1841-4284-9a96-4b2ae75df6fa" name="Default Changelist" comment="">
+    <list default="true" id="4a3d80ed-1841-4284-9a96-4b2ae75df6fa" name="Default Changelist" comment="working example with @Component">
+      <change afterPath="$PROJECT_DIR$/src/JS_fest_logo_555.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1/decorators/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1/decorators/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1/decorators/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1/myConsole.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decor/class-mixing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/decor/class-mixing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hero.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hero.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decor/component/hero.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/decor/component/hero.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decor/component/hero.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/decor/component/hero.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part1/apt.js" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part1/decorators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/part1/decorators.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,15 +61,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="meetup-relaunch" />
+        <entry key="$PROJECT_DIR$" value="ts-conf" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,10 +89,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/dist/rrr" />
       <recent name="$PROJECT_DIR$/dist/dist" />
       <recent name="$PROJECT_DIR$/dist/decor" />
       <recent name="$PROJECT_DIR$/dist/component" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -104,6 +117,9 @@
     <configuration name="hero-component.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/meta-programming/dist/component/hero-component.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="hero.component.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/meta-programming/dist/hero.component.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/meta-programming/dist/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -119,12 +135,22 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.hero.component.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.hero-component.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,6 +196,10 @@
       <workItem from="1571165003326" duration="5148000" />
       <workItem from="1571828198962" duration="3268000" />
       <workItem from="1571985253491" duration="1028000" />
+      <workItem from="1572178570566" duration="8116000" />
+      <workItem from="1572796825652" duration="1975000" />
+      <workItem from="1573285189120" duration="1418000" />
+      <workItem from="1573287820270" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="working example with @Component">
       <created>1565551340890</created>
@@ -185,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571165516965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working example with @Component">
+      <created>1572178650583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572178650584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
