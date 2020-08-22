@@ -108,10 +108,6 @@ class TodoObject {
         return this.deadLine - Date.now()
     }
 
-    // @deprecator
-    // @logger()
-    // @timer()
-    // @cacheIt()
     getPrimes(max) {
         let sieve = [], i, j, primes = [];
         for (i = 2; i <= max; ++i) {

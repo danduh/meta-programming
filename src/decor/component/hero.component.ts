@@ -7,7 +7,7 @@ import {Component} from "../component";
     styleUrls: ['./hero.component.scss'],
 })
 export class HeroComponent {
-    public title = 'JS-Fest 2019';
+    public title = 'Odessa.Js 2020';
 
     constructor() {
     }

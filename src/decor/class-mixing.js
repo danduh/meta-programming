@@ -4,7 +4,6 @@ import {mixings} from "./mixings";
 
 console.log('********* t: @danduh81 *********  \n OUTPUT START\n********* t: @danduh81 ********* \n \n');
 
-@mixings(BaseFlying)
 export class Car {
 
     constructor(brand, model, buildYear, color) {
@@ -20,11 +19,13 @@ export class Car {
 
 
 let myCar = new Car('Nissan', 'X-Trail', 2019, 'black');
+console.log(myCar.getBuildYear());
 
-myCar.setAltitude(50000).setFlySpeed(400);
-console.log(`Altitude is ${myCar.getAltitude()}`);
-console.log(`\nYear build ${myCar.getBuildYear()}`);
-console.log(myCar);
+// myCar.setAltitude(50000).setFlySpeed(400);
+// console.log(`Altitude is ${myCar.getAltitude()}`);
+
+// myCar.get()
+
 
 
 

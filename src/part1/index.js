@@ -8,10 +8,11 @@ console.log('-----------------------');
  * #-1  simple examples: LOG, timer, cache etc.
  */
 class MyClass {
+
     constructor() {
     }
 
-    @timer()
+    @timer(myConsole)
     @cache()
     primes(max) {
         let sieve = [], i, j, primes = [];
@@ -29,9 +30,10 @@ class MyClass {
 
 
 const myClass = new MyClass();
+
 console.log(myClass.primes(40000000));
-console.log(myClass.primes(30000000));
-console.log(myClass.primes(40000000));
+// console.log(myClass.primes(30000000));
+// console.log(myClass.primes(40000000));
 
 
 /**

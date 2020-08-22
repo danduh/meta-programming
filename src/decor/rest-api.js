@@ -32,7 +32,7 @@ const RestAPI = function (url) {
 
 export default RestAPI;
 
-@RestAPI()
+@RestAPI
 export class BaseRestAPI {
     setBaseUrl(url){
         this.baseUrl = url;
