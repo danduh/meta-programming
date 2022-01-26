@@ -1,4 +1,4 @@
-import {Component} from "../component";
+import { Component } from "../component";
 
 // @ts-ignore
 @Component({
@@ -7,7 +7,7 @@ import {Component} from "../component";
     styleUrls: ['./hero.component.scss'],
 })
 export class HeroComponent {
-    public title = 'Odessa.Js 2020';
+    public title = 'Welcome to CityJS';
 
     constructor() {
     }

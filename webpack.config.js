@@ -1,6 +1,6 @@
 module.exports = {
     // change to .tsx if necessary
-    entry: './src/main.ts',
+    entry: './hero/main.ts',
     output: {
         filename: './bundle.js'
     },

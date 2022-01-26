@@ -8,7 +8,7 @@ module.exports = {
             {
                 "targets": {
                     "esmodules": false,
-                    "chrome": 75
+                    "chrome": 96
                 }
             }
         ]

@@ -1,3 +1,4 @@
+declare const document: Document;
 export interface ComponentConfig {
     selector: string,
     templateUrl: string,
@@ -6,7 +7,7 @@ export interface ComponentConfig {
 
 export const Component = (conf: ComponentConfig) => {
     return async function (clazz) {
-        var elem = document.createElement(conf.selector);
+        const elem = document.createElement(conf.selector);
         let tmpl = await fetch(conf.templateUrl).then(str => str.text());
         let _cl = new clazz();
 
