@@ -9,7 +9,9 @@
     "babel": "babel hero -d dist",
     "mixing": "tsc hero/decor -d dist && node",
     "webpack": "webpack --config webpack.config.js",
-    "cmp": "ts-node --project tsconfig.json hero/main.ts"
+    "cmp": "ts-node --project tsconfig.json hero/main.ts",
+    "decorMovies": "ts-node --project tsconfig.json decorators/index.ts",
+    "worker": "ts-node --project tsconfig.json worker/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -28,7 +30,9 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
+    "@types/node": "^17.0.12",
     "colors": "^1.4.0",
+    "ts-helpers": "^1.1.2",
     "ts-node": "^10.4.0",
     "typescript": "4.5.5"
   }
