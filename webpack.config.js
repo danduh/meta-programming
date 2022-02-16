@@ -10,9 +10,9 @@ module.exports = {
     },
     module: {
         rules: [
-            // changed from { test: /\.ts?$/, use: { loader: 'babel-loader' } },
+
             {test: /\.ts?$/, use: {loader: 'awesome-typescript-loader'}},
-            // addition - add source-map support
+
             {enforce: "pre", test: /\.js$/, loader: "source-map-loader"}
         ]
     },
